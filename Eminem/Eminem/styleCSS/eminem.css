@@ -1,0 +1,126 @@
+body{
+  background: linear-gradient(black, #700603);
+}
+
+/* NAVIGATION */
+		/* CHANGEMENT COULEUR DE FOND */
+
+/** couleur de fond item de navigation **/
+.nav-item {
+	border-radius: 1rem;
+	font-size: 15px;
+}
+
+.nav-link {
+	display: block;
+	padding: 0.5rem 1rem;
+	margin-left: 3%;
+
+}
+
+/* CHANGEMENT COULEUR POLICE */
+
+.bg-light {
+    background-color: #0A0A0A !important;
+}
+
+nav button{
+	background-color: #700603 !important;
+}
+
+section img,section video {
+	border : 5px solid #700603;
+}
+
+.ban video{
+	width: 100%;
+	max-height: 10%;
+}
+
+
+article {
+	background:#FFFFFF;
+}
+
+article {
+	margin: 4% 4% 2% 4%;
+	padding : 0%;
+	border : solid black 1px;
+	border-width: 0.1em;
+	border-style: solid;
+	border-color: black;
+	border-top-left-radius: 10px;
+	border-bottom-right-radius: 10px;
+	box-shadow: 4px 4px 4px #aaa;
+}
+
+article p{
+	padding: 3% ;
+	text-align: center;
+	font-size: 1.25em;
+}
+
+article video,audio
+{
+	margin: 2%;
+	max-width: 90%;
+
+}
+
+.navbar-light .navbar-nav .nav-link, .navbar-light .navbar-nav .nav-link{
+    color: gray !important;
+}
+
+.dropdown-item:hover {
+    color: #16181b;
+    text-decoration: none;
+    background-color: grey;
+}
+
+.dropdown-menu.show {
+    display: block;
+    background-color: grey;
+}
+
+.nav-item {
+	margin-left:5px;
+}
+
+@media (min-width: 992px) { 
+	.col-lg-6{
+	max-width: 80%;
+	}
+}
+
+@media (max-width: 992px) { 
+	.col-lg-6{
+	max-width: 80%;
+	}
+}
+
+.citation{
+	margin: 4% 4% 2% 4%;
+	padding : 0%;
+	border : solid black 0.5px;
+	border-width: 0.05em;
+	border-style: dashed;
+	border-color: black;
+	border-top-left-radius: 20px;
+	border-bottom-right-radius: 20px;
+	box-shadow: 4px 4px 4px #aaa;
+}
+
+.sign{
+	font-size: 15px;
+}
+
+@font-face {
+    font-family: 'rapjack';
+    src: url('RAPJACK_.TTF');
+}
+
+h2{
+	    font-family: 'rapjack', Arial, serif;
+	    font-size: 60px;
+
+}
